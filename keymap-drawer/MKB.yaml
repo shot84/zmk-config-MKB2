@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - TAB
+  - ESCAPE
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - BKSP
-  - {t: ESC, h: BT}
+  - BACKSPACE
+  - {t: TAB, h: BT}
   - A
   - S
   - D
@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - SEMI
-  - SQT
+  - EQUAL
+  - MINUS
   - LSHFT
   - Z
   - X
@@ -37,19 +37,19 @@ layers:
   - DOT
   - UP
   - FSLH
-  - {t: ESC, h: LCTL}
-  - LGUI
+  - LCTRL
   - LALT
-  - {t: SPACE, h: Num}
+  - LGUI
+  - {t: LANG2, h: Num}
   - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
+  - BACKSPACE
+  - {t: ENTER, h: Num}
   - LEFT
   - DOWN
   - RIGHT
   - LEFT
   - UP
-  - SPACE
+  - LANG1
   - DOWN
   - RIGHT
   - HOME
@@ -119,23 +119,23 @@ layers:
   - A
   - B
   Num:
-  - CAPS
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - {t: ▽, type: trans}
+  - '0'
   - '7'
   - '8'
   - '9'
-  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
   - {t: ▽, type: trans}
   - MINUS
   - EQUAL
@@ -143,11 +143,11 @@ layers:
   - RBKT
   - BSLH
   - {t: ▽, type: trans}
-  - {t: SPACE, h: LSHFT}
-  - BACKSPACE
-  - DEL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - FSLH
