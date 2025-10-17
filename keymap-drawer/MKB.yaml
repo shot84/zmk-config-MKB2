@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - LANG1
   - {t: TAB, h: BT}
   - A
   - S
@@ -33,20 +33,20 @@ layers:
   - B
   - N
   - M
+  - '&mkp MB1'
+  - '&mkp MB2'
   - COMMA
-  - DOT
-  - UP
-  - FSLH
+  - {t: PERIOD, h: Scr}
   - LCTRL
   - LALT
   - LGUI
-  - {t: LANG2, h: Num}
+  - {t: LANG2, h: Scr}
   - {t: SPACE, h: Fnc}
   - BACKSPACE
   - {t: ENTER, h: Num}
   - LEFT
   - DOWN
-  - RIGHT
+  - COMMA
   - LEFT
   - UP
   - LANG1
@@ -60,46 +60,46 @@ layers:
   - A
   - B
   Fnc:
-  - GRAVE
-  - PG UP
-  - UP
-  - PG DN
-  - HOME
   - {t: ▽, type: trans}
-  - F1
+  - {t: ▽, type: trans}
   - F2
-  - F3
+  - Alt+Ctl+LEFT
+  - Ctl+Alt+RIGHT
   - F4
-  - F5
+  - Ctl+Alt+D
+  - Alt+Ctl+E
+  - Alt+Ctl+F
+  - Alt+Ctl+T
+  - Ctl+Alt+G
+  - Alt+Ctl+ENTER
   - {t: ▽, type: trans}
-  - '&tog_ls'
-  - LEFT
-  - DOWN
-  - RIGHT
-  - END
   - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
+  - Sft+COMMA
+  - Sft+7
+  - Sft+9
+  - Sft+0
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - SQT
+  - Sft+Gui+DOWN
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BKSP
-  - DEL
+  - Sft+3
+  - PLUS
+  - Sft+1
+  - QUESTION
+  - TILDE
+  - LESS THAN
+  - GREATER THAN
+  - Sft+Gui+D
+  - Gui+Sft+4
+  - Sft+Gui+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F11
-  - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - ENTER
+  - Sft+2
+  - EQUAL
   - {t: ENTER, type: held}
   - ENTER
   - ENTER
@@ -158,10 +158,10 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - ENTER
+  - ENTER
+  - ENTER
+  - ENTER
   - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
-  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -272,7 +272,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
