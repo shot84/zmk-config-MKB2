@@ -36,7 +36,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - COMMA
-  - {t: PERIOD, h: Scr}
+  - {t: PERIOD, h: BT}
   - LCTRL
   - LALT
   - LGUI
@@ -101,7 +101,7 @@ layers:
   - Sft+2
   - EQUAL
   - {t: ENTER, type: held}
-  - ENTER
+  - DELETE
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -120,46 +120,46 @@ layers:
   - B
   Num:
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
+  - '0'
+  - Ctl+LEFT
+  - Ctl+RIGHT
+  - Ctl+UP ARROW
+  - Ctl+DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   - '4'
   - '5'
   - '6'
+  - COLON
+  - Gui+RIGHT BRACE
   - {t: ▽, type: trans}
-  - MINUS
-  - EQUAL
-  - LBKT
-  - RBKT
-  - BSLH
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SLASH
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - FSLH
-  - SEMI
-  - SQT
+  - Gui+LEFT BRACE
+  - LEFT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
+  - LGUI
   - ENTER
-  - ENTER
-  - ENTER
+  - Ctl+Sft+S
   - ENTER
   - {t: ENTER, type: held}
   - {t: ▽, type: trans}
@@ -209,10 +209,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
   - '&mkp MB3'
+  - '&mkp MB1'
   - '&mkp MB2'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -238,51 +238,51 @@ layers:
   - B
   Scr:
   - {t: ▽, type: trans}
+  - F2
+  - Gui+W
+  - Ctl+LEFT
+  - Ctl+RIGHT
+  - BACKSLASH
+  - Ctl+Alt+D
+  - Alt+Ctl+E
+  - Alt+Ctl+F
+  - Ctl+Alt+T
+  - Ctl+Alt+G
+  - Ctl+Alt+ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DOUBLE QUOTES
+  - AMPERSAND
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - SQT
+  - Sft+Gui+DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - HASH
+  - PLUS
+  - '!'
+  - QUESTION
+  - TILDE
+  - Gui+A
+  - Gui+C
+  - Gui+V
+  - Gui+Q
+  - {t: ▽, type: trans}
+  - Gui+PLUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - AT SIGN
   - {type: held}
   - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+MINUS
   - LEFT
   - UP
   - SPACE
@@ -298,22 +298,22 @@ layers:
   BT:
   - BT CLR
   - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Alt+MINUS
+  - Gui+Alt+Sft+EQUAL
+  - BT CLR ALL
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - BT CLR ALL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+F11
+  - Alt+Sft+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
