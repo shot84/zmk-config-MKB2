@@ -44,7 +44,7 @@ layers:
   - {t: SPACE, h: Fnc}
   - BACKSPACE
   - {t: ENTER, h: Num}
-  - LEFT
+  - Gui+SPACE
   - DOWN
   - COMMA
   - LEFT
@@ -354,3 +354,12 @@ layers:
   - END
   - A
   - B
+combos:
+- p: [5, 4]
+  k: Gui+T
+- p: [30, 31]
+  k: Gui+N
+- p: [6, 7]
+  k: Alt+Gui+U
+- p: [29, 28]
+  k: V
