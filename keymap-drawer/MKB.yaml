@@ -362,4 +362,8 @@ combos:
 - p: [6, 7]
   k: Alt+Gui+U
 - p: [29, 28]
-  k: V
+  k: Gui+Sft+V
+- p: [1, 2]
+  k: Gui+W
+- p: [17, 16]
+  k: Gui+G
