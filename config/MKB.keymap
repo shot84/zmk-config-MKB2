@@ -50,7 +50,7 @@
         };
 
         cmd+g {
-            bindings = <&kp LG(G)>;
+            bindings = <&kp LG(F)>;
             key-positions = <17 16>;
         };
     };
