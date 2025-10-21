@@ -40,8 +40,18 @@
         };
 
         cmd+shift+v {
-            bindings = <&kp V>;
+            bindings = <&kp LG(LS(V))>;
             key-positions = <29 28>;
+        };
+
+        cmd+w {
+            bindings = <&kp LG(W)>;
+            key-positions = <1 2>;
+        };
+
+        cmd+g {
+            bindings = <&kp LG(G)>;
+            key-positions = <17 16>;
         };
     };
 
