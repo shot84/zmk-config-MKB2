@@ -416,7 +416,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
-<text x="280" y="84" class="combo tap">Gui+G</text>
+<text x="280" y="84" class="combo tap">Gui+F</text>
 </g>
 </g>
 </g>
@@ -719,7 +719,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
-<text x="280" y="84" class="combo tap">Gui+G</text>
+<text x="280" y="84" class="combo tap">Gui+F</text>
 </g>
 </g>
 </g>
@@ -1004,7 +1004,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
-<text x="280" y="84" class="combo tap">Gui+G</text>
+<text x="280" y="84" class="combo tap">Gui+F</text>
 </g>
 </g>
 </g>
@@ -1279,7 +1279,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
-<text x="280" y="84" class="combo tap">Gui+G</text>
+<text x="280" y="84" class="combo tap">Gui+F</text>
 </g>
 </g>
 </g>
@@ -1581,7 +1581,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
-<text x="280" y="84" class="combo tap">Gui+G</text>
+<text x="280" y="84" class="combo tap">Gui+F</text>
 </g>
 </g>
 </g>
@@ -1869,7 +1869,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
-<text x="280" y="84" class="combo tap">Gui+G</text>
+<text x="280" y="84" class="combo tap">Gui+F</text>
 </g>
 </g>
 </g>
