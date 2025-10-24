@@ -125,7 +125,7 @@
             bindings = <
 &trans    &kp F2    &kp LG(W)          &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))     &kp BACKSLASH              &kp LC(LA(D))     &kp LA(LC(E))      &kp LA(LC(F))  &kp LC(LA(T))     &kp LC(LA(G))  &kp LC(LA(ENTER))
 &trans    &trans    &kp DOUBLE_QUOTES  &kp AMPERSAND     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT        &kp LS(LG(DOWN))  &trans         &trans
-&trans    &kp HASH  &kp PLUS           &kp EXCLAMATION   &kp QUESTION          &kp TILDE                  &kp LG(A)         &kp LG(C)          &kp LG(V)      &kp LG(Q)         &trans         &kp LG(PLUS)
+&trans    &kp HASH  &kp PLUS           &kp EXCLAMATION   &kp QUESTION          &kp TILDE                  &kp LG(A)         &kp LG(C)          &kp LG(V)      &kp LC(Q)         &trans         &kp LG(PLUS)
 &trans    &trans    &kp AT_SIGN                          &trans                &trans                     &kp DELETE        &trans                            &trans            &trans         &kp LG(MINUS)
 &kp LEFT  &kp UP    &kp SPACE          &kp DOWN          &kp RIGHT                                                          &kp HOME           &kp PG_UP      &kp ENTER         &kp PG_DN      &kp END
                                        &kp A                                                                                                   &kp B
