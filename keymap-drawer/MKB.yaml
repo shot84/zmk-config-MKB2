@@ -270,7 +270,7 @@ layers:
   - Gui+A
   - Gui+C
   - Gui+V
-  - Gui+Q
+  - Ctl+Q
   - {t: ▽, type: trans}
   - Gui+PLUS
   - {t: ▽, type: trans}
