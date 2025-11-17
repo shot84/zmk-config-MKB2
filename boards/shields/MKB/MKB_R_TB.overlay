@@ -1,3 +1,5 @@
+#include <input/processors.dtsi>
+
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -58,5 +60,15 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
+        slow_pointer {
+            layers = <4>;
+            input-processors = <&zip_xy_scaler 1 2>;
+        };
+
+        scroll_layer {
+            layers = <1>;
+
+            input-processors = <&zip_xy_to_scroll_mapper &zip_scroll_scaler 1 3>;
+        };
     };
 };
