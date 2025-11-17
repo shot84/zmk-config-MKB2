@@ -77,12 +77,12 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&trans    &trans            &kp F2            &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp F4                &kp LC(LA(D))     &kp LA(LC(E))      &kp LA(LC(F))  &kp LA(LC(T))         &kp LC(LA(G))         &kp LA(LC(ENTER))
-&trans    &trans            &kp LS(COMMA)     &kp LS(NUMBER_7)  &kp LS(NUMBER_9)   &kp LS(NUMBER_0)      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT        &kp LS(LG(DOWN))      &kp F10               &trans
-&trans    &kp LS(NUMBER_3)  &kp PLUS          &kp LS(NUMBER_1)  &kp QUESTION       &kp TILDE             &kp LESS_THAN     &kp GREATER_THAN   &kp LS(LG(D))  &kp LG(LS(NUMBER_4))  &kp LS(LG(NUMBER_5))  &trans
-&trans    &trans            &kp LS(NUMBER_2)                    &kp EQUAL          &kp ENTER             &kp DELETE        &kp ENTER                         &trans                &trans                &trans
-&kp LEFT  &kp UP            &kp SPACE         &kp DOWN          &kp RIGHT                                                  &kp HOME           &kp PG_UP      &kp ENTER             &kp PG_DN             &kp END
-                                              &kp A                                                                                           &kp B
+&trans    &trans  &kp F2            &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp F4             &kp F1            &kp F10            &trans         &trans                &trans                &trans
+&trans    &trans  &trans            &trans            &trans             &kp SEMICOLON      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT        &kp LS(LG(DOWN))      &trans                &trans
+&trans    &trans  &trans            &trans            &trans             &kp TILDE          &kp LESS_THAN     &kp GREATER_THAN   &kp LS(LG(D))  &kp LG(LS(NUMBER_4))  &kp LS(LG(NUMBER_5))  &trans
+&trans    &trans  &kp LS(NUMBER_2)                    &trans             &kp ENTER          &kp DELETE        &kp ENTER                         &trans                &trans                &trans
+&kp LEFT  &kp UP  &kp SPACE         &kp DOWN          &kp RIGHT                                               &kp HOME           &kp PG_UP      &kp ENTER             &kp PG_DN             &kp END
+                                    &kp A                                                                                        &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -91,11 +91,11 @@
         num_layer {
             label = "Num";
             bindings = <
-&trans    &trans        &kp N7        &kp N8        &kp N9        &kp NUMBER_0       &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &trans     &trans
-&trans    &kp NUMBER_0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON          &kp LG(RIGHT_BRACKET)  &trans         &kp UP_ARROW      &trans        &trans     &trans
-&trans    &kp SLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans             &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans     &trans
-&trans    &kp ENTER     &kp LGUI                    &kp ENTER     &kp LC(LS(S))      &kp ENTER              &kp ENTER                        &trans        &trans     &trans
-&kp LEFT  &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                               &kp HOME       &kp PG_UP         &kp ENTER     &kp PG_DN  &kp END
+&trans    &kp TAB       &kp N7        &kp N8        &kp N9        &kp NUMBER_0       &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(LG(Z)))  &trans
+&trans    &kp NUMBER_0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON          &kp LG(RIGHT_BRACKET)  &trans         &kp UP_ARROW      &trans        &trans             &trans
+&trans    &kp SLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans             &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans             &trans
+&trans    &kp ENTER     &kp LGUI                    &kp ENTER     &kp LC(LS(S))      &kp ENTER              &kp ENTER                        &trans        &trans             &trans
+&kp LEFT  &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                               &kp HOME       &kp PG_UP         &kp ENTER     &kp PG_DN          &kp END
                                       &kp A                                                                                &kp B
             >;
 
@@ -123,12 +123,12 @@
         scroll_layer {
             label = "Scr";
             bindings = <
-&trans    &kp F2    &kp LG(W)          &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))     &kp BACKSLASH              &kp LC(LA(D))     &kp LA(LC(E))      &kp LA(LC(F))  &kp LC(LA(T))     &kp LC(LA(G))  &kp LC(LA(ENTER))
-&trans    &trans    &kp DOUBLE_QUOTES  &kp AMPERSAND     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT        &kp LS(LG(DOWN))  &trans         &trans
-&trans    &kp HASH  &kp PLUS           &kp EXCLAMATION   &kp QUESTION          &kp TILDE                  &kp LG(A)         &kp LG(C)          &kp LG(V)      &kp LC(Q)         &trans         &kp LG(PLUS)
-&trans    &trans    &kp AT_SIGN                          &trans                &trans                     &kp DELETE        &trans                            &trans            &trans         &kp LG(MINUS)
-&kp LEFT  &kp UP    &kp SPACE          &kp DOWN          &kp RIGHT                                                          &kp HOME           &kp PG_UP      &kp ENTER         &kp PG_DN      &kp END
-                                       &kp A                                                                                                   &kp B
+&trans     &kp ESCAPE  &kp LG(F2)         &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))     &kp PIPE                   &kp LC(LA(D))     &kp LA(LC(E))      &kp LA(LC(F))  &kp LC(LA(T))     &kp LC(LA(G))      &trans
+&trans     &kp TAB     &kp DOUBLE_QUOTES  &kp AMPERSAND     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT        &kp LS(LG(DOWN))  &kp LC(LA(ENTER))  &trans
+&trans     &kp HASH    &kp PLUS           &kp EXCLAMATION   &kp QUESTION          &kp TILDE                  &kp LG(A)         &kp LG(C)          &kp LG(V)      &kp LC(Q)         &trans             &kp LG(PLUS)
+&kp LCTRL  &trans      &kp AT_SIGN                          &trans                &trans                     &kp DELETE        &trans                            &kp LA(LG(V))     &kp LG(LS(V))      &kp LG(MINUS)
+&kp LEFT   &kp UP      &kp SPACE          &kp DOWN          &kp RIGHT                                                          &kp HOME           &kp PG_UP      &kp ENTER         &kp PG_DN          &kp END
+                                          &kp A                                                                                                   &kp B
             >;
 
             sensor-bindings =
