@@ -66,29 +66,29 @@ layers:
   - Ctl+Alt+LEFT
   - Ctl+Alt+RIGHT
   - F4
-  - Ctl+Alt+D
-  - Alt+Ctl+E
-  - Alt+Ctl+F
-  - Alt+Ctl+T
-  - Ctl+Alt+G
-  - Alt+Ctl+ENTER
+  - F1
+  - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+COMMA
-  - Sft+7
-  - Sft+9
-  - Sft+0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SEMICOLON
   - LEFT BRACKET
   - RIGHT BRACKET
   - SQT
   - Sft+Gui+DOWN
-  - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+3
-  - PLUS
-  - Sft+1
-  - QUESTION
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - TILDE
   - LESS THAN
   - GREATER THAN
@@ -99,7 +99,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+2
-  - EQUAL
+  - {t: ▽, type: trans}
   - {t: ENTER, type: held}
   - DELETE
   - ENTER
@@ -120,7 +120,7 @@ layers:
   - B
   Num:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
   - '7'
   - '8'
   - '9'
@@ -129,7 +129,7 @@ layers:
   - Ctl+RIGHT
   - Ctl+UP ARROW
   - Ctl+DOWN
-  - {t: ▽, type: trans}
+  - Ctl+Sft+Gui+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
@@ -238,19 +238,19 @@ layers:
   - B
   Scr:
   - {t: ▽, type: trans}
-  - F2
-  - Gui+W
+  - ESCAPE
+  - Gui+F2
   - Ctl+Alt+LEFT
   - Ctl+Alt+RIGHT
-  - BACKSLASH
+  - PIPE
   - Ctl+Alt+D
   - Alt+Ctl+E
   - Alt+Ctl+F
   - Ctl+Alt+T
   - Ctl+Alt+G
-  - Ctl+Alt+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - TAB
   - DOUBLE QUOTES
   - AMPERSAND
   - LEFT PARENTHESIS
@@ -259,7 +259,7 @@ layers:
   - RIGHT BRACKET
   - SQT
   - Sft+Gui+DOWN
-  - {t: ▽, type: trans}
+  - Ctl+Alt+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HASH
@@ -273,15 +273,15 @@ layers:
   - Ctl+Q
   - {t: ▽, type: trans}
   - Gui+PLUS
-  - {t: ▽, type: trans}
+  - LCTRL
   - {t: ▽, type: trans}
   - AT SIGN
   - {type: held}
   - {t: ▽, type: trans}
   - DELETE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Gui+V
+  - Gui+Sft+V
   - Gui+MINUS
   - LEFT
   - UP
