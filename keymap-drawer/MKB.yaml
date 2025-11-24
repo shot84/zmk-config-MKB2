@@ -39,9 +39,9 @@ layers:
   - {t: PERIOD, h: BT}
   - LCTRL
   - LALT
-  - LGUI
-  - {t: LANG2, h: Scr}
-  - {t: SPACE, h: Fnc}
+  - {t: LANGUAGE 2, h: LGUI}
+  - {t: SPACE, h: Scr}
+  - {t: LANGUAGE 1, h: Fnc}
   - BACKSPACE
   - {t: ENTER, h: Num}
   - Gui+SPACE
