@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - EQUAL
+  - MINUS
   - MINUS
   - LSHFT
   - Z
@@ -35,7 +35,7 @@ layers:
   - M
   - '&mkp MB1'
   - '&mkp MB2'
-  - COMMA
+  - PERIOD
   - {t: PERIOD, h: BT}
   - LCTRL
   - LALT
