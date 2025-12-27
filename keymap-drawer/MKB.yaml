@@ -99,7 +99,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+2
-  - {t: ▽, type: trans}
+  - EQUAL
   - {t: ENTER, type: held}
   - DELETE
   - ENTER
@@ -156,7 +156,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
+  - LEFT ALT
   - LGUI
   - ENTER
   - Ctl+Sft+S
