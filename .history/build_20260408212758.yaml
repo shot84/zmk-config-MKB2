@@ -37,35 +37,35 @@ include:
     snippet: zmk-usb-logging studio-rpc-usb-uart
     artifact-name: MKB_R_MODULE_TBv4
     
-  # - board: seeeduino_xiao_ble
-  #   shield: MKB_R_Base MKB_R_TBv3 rgbled_adapter nice_oled
-  #   snippet: zmk-usb-logging studio-rpc-usb-uart
-  #   artifact-name: MKB_R_MODULE_TBv3
+  - board: seeeduino_xiao_ble
+    shield: MKB_R_Base MKB_R_TBv3 rgbled_adapter nice_oled
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: MKB_R_MODULE_TBv3
 
-  # - board: seeeduino_xiao_ble
-  #   shield: MKB_R_Base MKB_R_JOY rgbled_adapter nice_oled
-  #   snippet: zmk-usb-logging studio-rpc-usb-uart
-  #   artifact-name: MKB_R_MODULE_JOY
+  - board: seeeduino_xiao_ble
+    shield: MKB_R_Base MKB_R_JOY rgbled_adapter nice_oled
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: MKB_R_MODULE_JOY
 
-  # - board: seeeduino_xiao_ble
-  #   shield: MKB_R_Base MKB_R_ENC rgbled_adapter nice_oled
-  #   snippet: zmk-usb-logging studio-rpc-usb-uart
-  #   artifact-name: MKB_R_MODULE_ENC
+  - board: seeeduino_xiao_ble
+    shield: MKB_R_Base MKB_R_ENC rgbled_adapter nice_oled
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: MKB_R_MODULE_ENC
 
-  # - board: seeeduino_xiao_ble
-  #   shield: MKB_R_Base MKB_R_RZT rgbled_adapter nice_oled
-  #   snippet: zmk-usb-logging studio-rpc-usb-uart
-  #   artifact-name: MKB_R_MODULE_RZT
+  - board: seeeduino_xiao_ble
+    shield: MKB_R_Base MKB_R_RZT rgbled_adapter nice_oled
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: MKB_R_MODULE_RZT
 
-  # - board: seeeduino_xiao_ble
-  #   shield: MKB_R_Base MKB_R_TPD rgbled_adapter nice_oled
-  #   snippet: zmk-usb-logging studio-rpc-usb-uart
-  #   artifact-name: MKB_R_MODULE_TPD
+  - board: seeeduino_xiao_ble
+    shield: MKB_R_Base MKB_R_TPD rgbled_adapter nice_oled
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: MKB_R_MODULE_TPD
 
-  # - board: seeeduino_xiao_ble
-  #   shield: MKB_R_Base MKB_R_KEY rgbled_adapter nice_oled
-  #   snippet: zmk-usb-logging studio-rpc-usb-uart
-  #   artifact-name: MKB_R_MODULE_KEY
+  - board: seeeduino_xiao_ble
+    shield: MKB_R_Base MKB_R_KEY rgbled_adapter nice_oled
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: MKB_R_MODULE_KEY
 
 # Settings Reset
   - board: seeeduino_xiao_ble
