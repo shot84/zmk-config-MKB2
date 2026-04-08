@@ -16,8 +16,6 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: cormoran
       url-base: https://github.com/cormoran
-    - name: prospector  # <-- Prospector Scanner
-      url-base: https://github.com/t-ogura  # ★これを追加
   projects:
     - name: zmk
       # remote: zmkfirmware
@@ -61,11 +59,6 @@ manifest:
     - name: zmk-module-settings-rpc
       remote: cormoran
       revision: main
-
-    - name: prospector-zmk-module
-      remote: prospector
-      revision: v1.0.0
-      path: modules/prospector-zmk-module
 
   self:
     path: config
