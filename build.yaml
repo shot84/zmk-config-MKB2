@@ -11,10 +11,10 @@ include:
   #   snippet: Default zmk-usb-logging studio-rpc-usb-uart
   #   artifact-name: MKB_L_MODULE_JOY
 
-  # - board: seeeduino_xiao_ble
-  #   shield: MKB_L_Base MKB_L_ENC rgbled_adapter nice_oled
-  #   snippet: Default zmk-usb-logging studio-rpc-usb-uart
-  #   artifact-name: MKB_L_MODULE_ENC
+  - board: seeeduino_xiao_ble
+    shield: MKB_L_Base MKB_L_ENC rgbled_adapter nice_oled
+    snippet: Default zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: MKB_L_MODULE_ENC
 
   # - board: seeeduino_xiao_ble
   #   shield: MKB_L_Base MKB_L_RZT rgbled_adapter nice_oled
