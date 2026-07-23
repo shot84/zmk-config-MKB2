@@ -22,6 +22,8 @@ manifest:
       url-base: https://github.com/sekigon-gonnoc
     - name: taichan1113
       url-base: https://github.com/taichan1113
+    - name: nlazcani
+      url-base: https://github.com/nlazcani
 
   projects:
     - name: zmk
@@ -78,6 +80,10 @@ manifest:
     - name: zmk-driver-pat9125
       remote: taichan1113
       revision: main   # 現HEAD f5c1937 (2026-04) で固定可
+
+    - name: zmk-input-processor-rotate
+      remote: nlazcani
+      revision: main
 
   self:
     path: config

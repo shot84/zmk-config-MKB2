@@ -52,23 +52,16 @@
         };
     };
 
-    tb_rip: tb_rip {
-        compatible = "zmk,input-processor-runtime";
-        processor-label = "rtb";
-        type = <INPUT_EV_REL>;
-        x-codes = <INPUT_REL_X>;
-        y-codes = <INPUT_REL_Y>;
-        scale-multiplier = <1>;
-        scale-divisor = <1>;
-        rotation-degrees = <0>;
-        track-remainders;
+    tb_rotate: tb_rotate {
+        compatible = "zmk,input-processor-rotate";
         #input-processor-cells = <0>;
+        angle = <25>;
     };
 
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
-        input-processors = <&tb_rip>;
+        input-processors = <&tb_rotate>;
     };
 };
