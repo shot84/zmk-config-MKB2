@@ -1,6 +1,6 @@
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
-#include <zephyr/dt-bindings/input/input-event-codes.h>
 
 &pinctrl {
     spi0_default: spi0_default {
@@ -34,7 +34,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&xiao_d 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        res-cpi = <1600>;
+        res-cpi = <1000>;
         force-awake;
     };
 };
@@ -51,24 +51,10 @@
             reg = <0>;
         };
     };
-
-    tb_rip: tb_rip {
-        compatible = "zmk,input-processor-runtime";
-        processor-label = "rtb";
-        type = <INPUT_EV_REL>;
-        x-codes = <INPUT_REL_X>;
-        y-codes = <INPUT_REL_Y>;
-        scale-multiplier = <1>;
-        scale-divisor = <1>;
-        rotation-degrees = <0>;
-        track-remainders;
-        #input-processor-cells = <0>;
-    };
-
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
-        input-processors = <&tb_rip>;
     };
 };
+

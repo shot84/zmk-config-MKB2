@@ -66,9 +66,7 @@ manifest:
     - name: zmk-module-settings-rpc
       remote: cormoran
       revision: main
-    - name: zmk-feature-custom-settings
-      remote: cormoran
-      revision: main
+
 
     - name: prospector-zmk-module
       remote: prospector
