@@ -1,0 +1,43 @@
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+#include <input/processors.dtsi>
+
+&xiao_i2c {
+    status = "okay";
+
+    trackball_pat9125: trackball_pat9125@79 {
+        status = "okay";
+        compatible = "pixart,pat9125";
+        reg = <0x79>;   // ID_SEL: HIGH=0x73, LOW=0x75, NC=0x79
+        motion-gpios = <&xiao_d 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;  // 要実測
+        res-x-cpi = <300>;
+        res-y-cpi = <300>;
+        zephyr,axis-x = <INPUT_REL_Y>;
+        zephyr,axis-y = <INPUT_REL_X>;
+        invert-x;
+        invert-y;
+        sleep1-enable;
+        sleep2-enable;
+    };
+};
+
+/* 左手はcentralなのでsplit不要、直接listen */
+/ {
+    listener_pat9125: listener_pat9125 {
+        compatible = "zmk,input-listener";
+        status = "okay";
+        device = <&trackball_pat9125>;
+        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 10>;
+    };
+};
+
+/* エンコーダは既存定義流用、空中配線先のピンに書き換え */
+&left_encoder {
+    a-gpios = <&xiao_d ? GPIO_ACTIVE_HIGH>;   // 空中配線先が決まったら
+    b-gpios = <&xiao_d ? GPIO_ACTIVE_HIGH>;
+    steps = <60>;   // デバッガ環境の値。EC21で1デテント1アクションになるよう要調整
+    status = "okay";
+};
+
+&sensors {
+    triggers-per-rotation = <15>;   // 挙動見て調整
+};

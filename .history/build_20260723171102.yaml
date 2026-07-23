@@ -32,9 +32,9 @@ include:
     artifact-name: MKB_L_MODULE_KEY
 
   - board: seeeduino_xiao_ble
-    shield: MKB_L_Base MKB_L_CTB rgbled_adapter nice_oled
+    shield: MKB_L_Base MKB_L_KEY rgbled_adapter nice_oled
     snippet: Default zmk-usb-logging studio-rpc-usb-uart
-    artifact-name: MKB_L_MODULE_CTB
+    artifact-name: MKB_L_MODULE_KEY
 
 # Right Shields
   - board: seeeduino_xiao_ble

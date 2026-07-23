@@ -75,9 +75,6 @@ manifest:
     - name: zmk-driver-paw3222
       remote: sekigon-gonnoc
       revision: v0.2
-    - name: zmk-driver-pat9125
-      remote: taichan1113
-      revision: main   # 現HEAD f5c1937 (2026-04) で固定可
 
   self:
     path: config
