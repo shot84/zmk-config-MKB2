@@ -14,7 +14,7 @@
         zephyr,axis-x = <INPUT_REL_Y>;
         zephyr,axis-y = <INPUT_REL_X>;
         // invert-x;
-        // invert-y;
+        invert-y;
         sleep1-enable;
         sleep2-enable;
     };
@@ -26,7 +26,7 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_pat9125>;
-        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 10>;
+        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 20>;
     };
 };
 
