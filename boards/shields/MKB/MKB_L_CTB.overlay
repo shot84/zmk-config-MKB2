@@ -13,8 +13,8 @@
         res-y-cpi = <300>;
         zephyr,axis-x = <INPUT_REL_Y>;
         zephyr,axis-y = <INPUT_REL_X>;
-        // invert-x;
-        invert-y;
+        invert-x;
+        // invert-y;
         sleep1-enable;
         sleep2-enable;
     };
