@@ -18,9 +18,6 @@ manifest:
       url-base: https://github.com/cormoran
     - name: prospector  # <-- Prospector Scanner
       url-base: https://github.com/t-ogura  # ★これを追加
-    - name: sekigon-gonnoc
-      url-base: https://github.com/sekigon-gonnoc
-
   projects:
     - name: zmk
       # remote: zmkfirmware

@@ -18,9 +18,6 @@ manifest:
       url-base: https://github.com/cormoran
     - name: prospector  # <-- Prospector Scanner
       url-base: https://github.com/t-ogura  # ★これを追加
-    - name: sekigon-gonnoc
-      url-base: https://github.com/sekigon-gonnoc
-
   projects:
     - name: zmk
       # remote: zmkfirmware
@@ -70,9 +67,12 @@ manifest:
       revision: v1.0.0
       path: modules/prospector-zmk-module
 
+    - name: sekigon-gonnoc
+      url-base: https://github.com/sekigon-gonnoc
+
     - name: zmk-driver-paw3222
       remote: sekigon-gonnoc
-      revision: v0.2
+      revision: df652881be2520bde4f64ab6ca35e4c5708f4f9b  # main (2026-02時点)
 
   self:
     path: config
