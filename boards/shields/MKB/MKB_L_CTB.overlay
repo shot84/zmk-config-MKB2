@@ -30,7 +30,6 @@
     };
 };
 
-エンコーダは空中配線先が決まるまで無効化
 &left_encoder {
     a-gpios = <&xiao_d 0 GPIO_ACTIVE_HIGH>;
     b-gpios = <&xiao_d 0 GPIO_ACTIVE_HIGH>;
