@@ -31,8 +31,8 @@
 };
 
 &left_encoder {
-    a-gpios = <&xiao_d 0 GPIO_ACTIVE_HIGH>;
-    b-gpios = <&xiao_d 0 GPIO_ACTIVE_HIGH>;
+    a-gpios = <&xiao_d 9 GPIO_ACTIVE_HIGH>;
+    b-gpios = <&xiao_d 10 GPIO_ACTIVE_HIGH>;
     steps = <60>;
     status = "okay";
 };
