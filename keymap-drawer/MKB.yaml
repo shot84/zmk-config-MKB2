@@ -52,11 +52,11 @@ layers:
   - LANG1
   - DOWN
   - RIGHT
-  - Sft+Ctl+TAB
-  - Gui+Z
+  - HOME
+  - PAGE UP
   - ENTER
-  - Sft+Gui+Z
-  - Ctl+TAB
+  - PAGE DOWN
+  - END
   - {t: LANGUAGE 2, h: LGUI}
   - B
   Fnc:
