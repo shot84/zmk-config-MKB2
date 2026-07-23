@@ -56,7 +56,7 @@
     tb_rotate: tb_rotate {
         compatible = "zmk,input-processor-rotate";
         #input-processor-cells = <0>;
-        angle = <-25>;
+        angle = <(-25)>;
     };
 
     trackball_listener: trackball_listener {
