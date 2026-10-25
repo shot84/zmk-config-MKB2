@@ -10,6 +10,9 @@ config SHIELD_MKB_R_JOY
 config SHIELD_MKB_R_TB
     def_bool $(shields_list_contains,MKB_R_TB)
 
+config SHIELD_MKB_R_TB3610
+    def_bool $(shields_list_contains,MKB_R_TB3610)
+
 config SHIELD_MKB_R_TBv3
     def_bool $(shields_list_contains,MKB_R_TBv3)
     
